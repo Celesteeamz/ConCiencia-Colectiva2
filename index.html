@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ConCiencia Colectiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<canvas id="galaxy-bg"></canvas>
+<header>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="Logo/logoProyecto.jpg" alt="Logo Proyecto" class="logo-img">
+            <img src="Logo/logo.jpg" alt="ConCiencia Colectiva" class="logo-img logo-secundario">
+        </div>
+
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <ul id="menu" class="menu">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#pausados">Projects on Hold</a></li>
+            <li><a href="#proyectos">Our Projects</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <div class="about-container">
+
+        <div class="about-box">
+            <h2>About Us</h2>
+            <p>
+                We are a team focused on the development of technological and aerospace projects. We seek investment to transform innovative ideas into real and scalable solutions.
+            </p>
+        </div>
+</section>
+
+<section id="pausados" class="info-section">
+    <div class="carrusel-info">
+      <div class="carrusel-slides">
+        <div class="slide active">
+          <img src="CarruselDePausados/pausado1.jpg" alt="Pausado 1">
+          <div class="info">
+            <h3>SABIA-Mar</h3>
+            <p>Projects halted due to lack of investment</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="CarruselDePausados/pausado2.jpg" alt="Pausado 2">
+          <div class="info">
+            <h3>Tronador II</h3>
+            <p>Projects halted due to lack of investment</p>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="CarruselDePausados/pausado3.jpg" alt="Pausado 3">
+          <div class="info">
+            <h3>SAOCOM 2</h3>
+            <p>Projects halted due to lack of investment</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+</section> 
+
+<section id="proyectos" class="info-section">
+    <div class="proyectos-container">
+
+        <div class="proyecto-box">
+            <img src="ProyectosP/Ar-mate1.jpg" alt="Proyecto Ar-mate 1">
+            <div class="proyecto-info">
+                <h3>Ar-mate 1</h3>
+                <p>Our product stems from the desire to take mate to space as a symbol of Argentine culture. Beyond the number of Argentine astronauts, we seek to ensure that, even where there are no borders, our identity, our roots, and our worldview are present. It's not just about representation: it's about demonstrating that Argentine culture can reach as far as our dreams.</p>
+            </div>
+        </div>
+
+        <div class="proyecto-box">
+            <img src="ProyectosP/lampara.jpg" alt="Proyecto Lampara">
+            <div class="proyecto-info">
+                <h3>Sparky</h3>
+                <p>A smart lamp that is responsible for communicating to people when James Webb makes a new discovery by changing the color of its LEDs from gold to reddish, it also allows you to see all the information from its official website once notified.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+
+<footer>
+  <div class="footer-container">
+    <h3>ConCiencia Colectiva</h3>
+    <p>Contacto: info@concienciacolectiva.com</p>
+    <p>Teléfono: +54 9 11 1234-5678</p>
+    <div class="socials">
+      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+    <p class="copyright">© 2025 ConCiencia Colectiva. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</html>
